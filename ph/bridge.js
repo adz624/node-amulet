@@ -91,6 +91,24 @@ indexPage.open('http://localhost:' + port, function (status) {
       data.args = [null, phantom.injectJs(data.args[0])];
       respond(data);
     },
+    'page.get.viewportSize' : function (data) {
+      data.args = [null, pages[data.args[0]].viewportSize];
+      respond(data);
+    },
+    'page.set.viewportSize': function (data) {
+      pages[data.args[0]].viewportSize = data.args[1];
+      data.args = [];
+      respond(data);
+    },
+    'page.get.content' : function (data) {
+      data.args = [null, pages[data.args[0]].content];
+      respond(data);
+    },
+    'page.set.content': function (data) {
+      pages[data.args[0]].content = data.args[1];
+      data.args = [];
+      respond(data);
+    },
     'page.create': function (data) {
       var page = webpage.create();
       var id = data.args[0];
