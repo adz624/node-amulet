@@ -47,7 +47,7 @@ require
 
 開網址
 
-    page.open('httP://google.com/', function (status) {
+    page.open('httP://google.com/', function (err, status) {
     });
 
 監聽事件
