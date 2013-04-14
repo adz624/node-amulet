@@ -109,6 +109,73 @@ indexPage.open('http://localhost:' + port, function (status) {
       data.args = [];
       respond(data);
     },
+    'page.get.clipRect' : function (data) {
+      data.args = [null, pages[data.args[0]].clipRect];
+      respond(data);
+    },
+    'page.set.clipRect': function (data) {
+      pages[data.args[0]].clipRect = data.args[1];
+      data.args = [];
+      respond(data);
+    },
+    'page.get.cookies' : function (data) {
+      data.args = [null, pages[data.args[0]].cookies];
+      respond(data);
+    },
+    'page.set.cookies': function (data) {
+      pages[data.args[0]].cookies = data.args[1];
+      data.args = [];
+      respond(data);
+    },
+    'page.set.customHeaders': function (data) {
+      pages[data.args[0]].customHeaders = data.args[1];
+      data.args = [];
+      respond(data);
+    },
+    'page.get.paperSize' : function (data) {
+      data.args = [null, pages[data.args[0]].paperSize];
+      respond(data);
+    },
+    'page.set.paperSize': function (data) {
+      pages[data.args[0]].paperSize = data.args[1];
+      data.args = [];
+      respond(data);
+    },
+    'page.get.plainText' : function (data) {
+      data.args = [null, pages[data.args[0]].plainText];
+      respond(data);
+    },
+    'page.get.scrollPosition' : function (data) {
+      data.args = [null, pages[data.args[0]].scrollPosition];
+      respond(data);
+    },
+    'page.set.scrollPosition': function (data) {
+      pages[data.args[0]].scrollPosition = data.args[1];
+      data.args = [];
+      respond(data);
+    },
+    'page.get.settings' : function (data) {
+      data.args = [null, pages[data.args[0]].settings];
+      respond(data);
+    },
+    'page.set.settings': function (data) {
+      pages[data.args[0]].settings = data.args[1];
+      data.args = [];
+      respond(data);
+    },
+    'page.get.url' : function (data) {
+      data.args = [null, pages[data.args[0]].url];
+      respond(data);
+    },
+    'page.get.zoomFactor' : function (data) {
+      data.args = [null, pages[data.args[0]].zoomFactor];
+      respond(data);
+    },
+    'page.set.zoomFactor': function (data) {
+      pages[data.args[0]].zoomFactor = data.args[1];
+      data.args = [];
+      respond(data);
+    },
     'page.create': function (data) {
       var page = webpage.create();
       var id = data.args[0];

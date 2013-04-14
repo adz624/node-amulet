@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.2.17
+3 info using node@v0.10.3
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose read json /home/poying/workspace/node/ph-bridge/package.json
+7 verbose cache add [ '.', null ]
+8 verbose cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '.',
+9 verbose parsed url   path: '.',
+9 verbose parsed url   href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . /home/poying/.npm/3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ '/home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz
+15 verbose folder .
+16 info prepublish node-amulet@0.0.1
+17 silly lockFile 3a52ce78- .
+18 verbose lock . /home/poying/.npm/3a52ce78-.lock
+19 silly lockFile 8c634201-67182-0-6083295322023332-tmp-tgz /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz
+20 verbose lock /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz /home/poying/.npm/8c634201-67182-0-6083295322023332-tmp-tgz.lock
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 3a52ce78- .
+23 silly lockFile 8c634201-67182-0-6083295322023332-tmp-tgz /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz
+24 silly lockFile 8c634201-67182-0-6083295322023332-tmp-tgz /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz
+25 verbose tar unpack /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz
+26 silly lockFile abb02bde-67182-0-6083295322023332-package /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package
+27 verbose lock /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package /home/poying/.npm/abb02bde-67182-0-6083295322023332-package.lock
+28 silly lockFile 8c634201-67182-0-6083295322023332-tmp-tgz /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz
+29 verbose lock /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz /home/poying/.npm/8c634201-67182-0-6083295322023332-tmp-tgz.lock
+30 silly gunzTarPerm modes [ '755', '644' ]
+31 silly gunzTarPerm extractEntry package.json
+32 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+33 silly gunzTarPerm extractEntry .npmignore
+34 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+35 silly gunzTarPerm extractEntry README.md
+36 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+37 silly gunzTarPerm extractEntry .jslintrc
+38 silly gunzTarPerm modified mode [ '.jslintrc', 436, 420 ]
+39 silly gunzTarPerm extractEntry examples/colorwheel.js
+40 silly gunzTarPerm modified mode [ 'examples/colorwheel.js', 436, 420 ]
+41 silly gunzTarPerm extractEntry examples/loadspeed.js
+42 silly gunzTarPerm modified mode [ 'examples/loadspeed.js', 436, 420 ]
+43 silly gunzTarPerm extractEntry examples/netlog.js
+44 silly gunzTarPerm modified mode [ 'examples/netlog.js', 436, 420 ]
+45 silly gunzTarPerm extractEntry examples/screen-capture.js
+46 silly gunzTarPerm modified mode [ 'examples/screen-capture.js', 436, 420 ]
+47 silly gunzTarPerm extractEntry lib/bridge.js
+48 silly gunzTarPerm modified mode [ 'lib/bridge.js', 436, 420 ]
+49 silly gunzTarPerm extractEntry lib/index.js
+50 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+51 silly gunzTarPerm extractEntry lib/phantom.js
+52 silly gunzTarPerm modified mode [ 'lib/phantom.js', 436, 420 ]
+53 silly gunzTarPerm extractEntry lib/webpage.js
+54 silly gunzTarPerm modified mode [ 'lib/webpage.js', 436, 420 ]
+55 silly gunzTarPerm extractEntry lib/index.html
+56 silly gunzTarPerm modified mode [ 'lib/index.html', 436, 420 ]
+57 silly gunzTarPerm extractEntry ph/bridge.js
+58 silly gunzTarPerm modified mode [ 'ph/bridge.js', 436, 420 ]
+59 verbose read json /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package/package.json
+60 silly lockFile abb02bde-67182-0-6083295322023332-package /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package
+61 silly lockFile abb02bde-67182-0-6083295322023332-package /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package
+62 silly lockFile 8c634201-67182-0-6083295322023332-tmp-tgz /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz
+63 silly lockFile 8c634201-67182-0-6083295322023332-tmp-tgz /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/tmp.tgz
+64 verbose from cache /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package/package.json
+65 verbose tar pack [ '/home/poying/.npm/node-amulet/0.0.1/package.tgz',
+65 verbose tar pack   '/home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package' ]
+66 verbose tarball /home/poying/.npm/node-amulet/0.0.1/package.tgz
+67 verbose folder /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package
+68 silly lockFile abb02bde-67182-0-6083295322023332-package /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package
+69 verbose lock /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package /home/poying/.npm/abb02bde-67182-0-6083295322023332-package.lock
+70 silly lockFile c08026e0-pm-node-amulet-0-0-1-package-tgz /home/poying/.npm/node-amulet/0.0.1/package.tgz
+71 verbose lock /home/poying/.npm/node-amulet/0.0.1/package.tgz /home/poying/.npm/c08026e0-pm-node-amulet-0-0-1-package-tgz.lock
+72 silly lockFile abb02bde-67182-0-6083295322023332-package /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package
+73 silly lockFile abb02bde-67182-0-6083295322023332-package /home/poying/tmp/npm-2481/1365920367182-0.6083295322023332/package
+74 silly lockFile c08026e0-pm-node-amulet-0-0-1-package-tgz /home/poying/.npm/node-amulet/0.0.1/package.tgz
+75 silly lockFile c08026e0-pm-node-amulet-0-0-1-package-tgz /home/poying/.npm/node-amulet/0.0.1/package.tgz
+76 silly lockFile 84ef2672-ng-npm-node-amulet-0-0-1-package /home/poying/.npm/node-amulet/0.0.1/package
+77 verbose lock /home/poying/.npm/node-amulet/0.0.1/package /home/poying/.npm/84ef2672-ng-npm-node-amulet-0-0-1-package.lock
+78 silly lockFile 84ef2672-ng-npm-node-amulet-0-0-1-package /home/poying/.npm/node-amulet/0.0.1/package
+79 silly lockFile 84ef2672-ng-npm-node-amulet-0-0-1-package /home/poying/.npm/node-amulet/0.0.1/package
+80 verbose tar unpack /home/poying/.npm/node-amulet/0.0.1/package.tgz
+81 silly lockFile 84ef2672-ng-npm-node-amulet-0-0-1-package /home/poying/.npm/node-amulet/0.0.1/package
+82 verbose lock /home/poying/.npm/node-amulet/0.0.1/package /home/poying/.npm/84ef2672-ng-npm-node-amulet-0-0-1-package.lock
+83 silly lockFile c08026e0-pm-node-amulet-0-0-1-package-tgz /home/poying/.npm/node-amulet/0.0.1/package.tgz
+84 verbose lock /home/poying/.npm/node-amulet/0.0.1/package.tgz /home/poying/.npm/c08026e0-pm-node-amulet-0-0-1-package-tgz.lock
+85 silly gunzTarPerm modes [ '755', '644' ]
+86 silly gunzTarPerm extractEntry package.json
+87 silly gunzTarPerm extractEntry .npmignore
+88 silly gunzTarPerm extractEntry README.md
+89 silly gunzTarPerm extractEntry .jslintrc
+90 silly gunzTarPerm extractEntry examples/colorwheel.js
+91 silly gunzTarPerm extractEntry examples/loadspeed.js
+92 silly gunzTarPerm extractEntry examples/netlog.js
+93 silly gunzTarPerm extractEntry examples/screen-capture.js
+94 silly gunzTarPerm extractEntry lib/bridge.js
+95 silly gunzTarPerm extractEntry lib/index.js
+96 silly gunzTarPerm extractEntry lib/phantom.js
+97 silly gunzTarPerm extractEntry lib/webpage.js
+98 silly gunzTarPerm extractEntry lib/index.html
+99 silly gunzTarPerm extractEntry ph/bridge.js
+100 verbose read json /home/poying/.npm/node-amulet/0.0.1/package/package.json
+101 silly lockFile 84ef2672-ng-npm-node-amulet-0-0-1-package /home/poying/.npm/node-amulet/0.0.1/package
+102 silly lockFile 84ef2672-ng-npm-node-amulet-0-0-1-package /home/poying/.npm/node-amulet/0.0.1/package
+103 silly lockFile c08026e0-pm-node-amulet-0-0-1-package-tgz /home/poying/.npm/node-amulet/0.0.1/package.tgz
+104 silly lockFile c08026e0-pm-node-amulet-0-0-1-package-tgz /home/poying/.npm/node-amulet/0.0.1/package.tgz
+105 silly shasum updated bytes 7290
+106 info shasum 1805a654926ef59d15c2c17f6dc769e07ba1ac66
+106 info shasum /home/poying/.npm/node-amulet/0.0.1/package.tgz
+107 verbose from cache /home/poying/.npm/node-amulet/0.0.1/package/package.json
+108 verbose chmod /home/poying/.npm/node-amulet/0.0.1/package.tgz 644
+109 verbose chown /home/poying/.npm/node-amulet/0.0.1/package.tgz [ 0, 0 ]
+110 silly lockFile 3a52ce78- .
+111 silly publish { name: 'node-amulet',
+111 silly publish   version: '0.0.1',
+111 silly publish   description: 'phantomjs wrapper for nodejs',
+111 silly publish   main: './lib/index.js',
+111 silly publish   directories: { example: 'example', test: 'test' },
+111 silly publish   dependencies: { debug: '~0.7.2', phantomjs: '1.9.0-1', 'socket.io': '~0.9.14' },
+111 silly publish   devDependencies: {},
+111 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+111 silly publish   repository: { type: 'git', url: 'git://github.com/poying/node-amulet.git' },
+111 silly publish   keywords: [ 'phantomjs', 'phantom' ],
+111 silly publish   author: { name: 'Po-Ying Chen', email: 'poying.me@gmail.com' },
+111 silly publish   license: 'MIT',
+111 silly publish   readme: '## node-amulet\n\n當 Node.js 遇上鬼 !! (驚\n\nnode-amulet 利用 websocket 溝通 node.js phantom.js，跟 [node-phantom](https://github.com/alexscheelmeyer/node-phantom) 作法相同，既然有現成的那幹嘛自己再做一個？純粹是為了滿足自幹的欲望... 然後順便可以了解 phantom.js 的詳細用法、API。\n\n### WebPage Properties\n\n* 可以使用\n\n    content viewportSize\n\n* 還不能使用\n\n    clipRect canGoBack canGoForward cookies customHeaders event focusedFrameName frameContent frameName framePlainText frameTitle frameUrl framesCount framesName libraryPath navigationLocked offlineStoragePath offlineStorageQuota ownsPages pages pagesWindowName paperSize plainText scrollPosition settings title url windowName zoomFactor\n\n### 安裝\n\n    npm install node-amulet\n\n### 用法\n\nrequire\n\n    var Phantom = require(\'node-amulet\');\n\n新增 phantom\n\n    var ph = new Phantom(\'3001\'); // 3001 是 websocket 的 port\n\n    // or\n    \n    var bridge = new Phantom.Bridge(\'3001\');\n    var ph = new Phantom(bridge);\n\n    // or\n\n    var ph = Phantom.create();\n\n新增 page\n\n    var page = new Phantom.WebPage(ph);\n\n    // or\n\n    var page = ph.createPage();\n\n開網址\n\n    page.open(\'httP://google.com/\', function (status) {\n    });\n\n監聽事件\n\n    page.on(\'loadFinished\', function (data) {\n      console.log(data.status);\n    });\n\n### License\n\n(The MIT License)\n\nCopyright (c) 2013 Po-Ying Chen\n',
+111 silly publish   readmeFilename: 'README.md',
+111 silly publish   _id: 'node-amulet@0.0.1',
+111 silly publish   dist: { shasum: '1805a654926ef59d15c2c17f6dc769e07ba1ac66' },
+111 silly publish   _from: '.' }
+112 verbose url raw node-amulet
+113 verbose url resolving [ 'https://registry.npmjs.org/', './node-amulet' ]
+114 verbose url resolved https://registry.npmjs.org/node-amulet
+115 info trying registry request attempt 1 at 14:19:39
+116 http PUT https://registry.npmjs.org/node-amulet
+117 http 409 https://registry.npmjs.org/node-amulet
+118 verbose url raw node-amulet
+119 verbose url resolving [ 'https://registry.npmjs.org/', './node-amulet' ]
+120 verbose url resolved https://registry.npmjs.org/node-amulet
+121 info trying registry request attempt 1 at 14:19:46
+122 http GET https://registry.npmjs.org/node-amulet
+123 http 200 https://registry.npmjs.org/node-amulet
+124 error publish fail Cannot publish over existing version.
+124 error publish fail Update the 'version' field in package.json and try again.
+124 error publish fail
+124 error publish fail If the previous version was published in error, see:
+124 error publish fail     npm help unpublish
+124 error publish fail
+124 error publish fail To automatically increment version numbers, see:
+124 error publish fail     npm help version
+125 error System Linux 3.5.0-27-generic
+126 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+127 error cwd /home/poying/workspace/node/ph-bridge
+128 error node -v v0.10.3
+129 error npm -v 1.2.17
+130 error code EPUBLISHCONFLICT
+131 verbose exit [ 1, true ]

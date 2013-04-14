@@ -4,16 +4,6 @@
 
 node-amulet 利用 websocket 溝通 node.js phantom.js，跟 [node-phantom](https://github.com/alexscheelmeyer/node-phantom) 作法相同，既然有現成的那幹嘛自己再做一個？純粹是為了滿足自幹的欲望... 然後順便可以了解 phantom.js 的詳細用法、API。
 
-### WebPage Properties
-
-* 可以使用
-
-    content viewportSize
-
-* 還不能使用
-
-    clipRect canGoBack canGoForward cookies customHeaders event focusedFrameName frameContent frameName framePlainText frameTitle frameUrl framesCount framesName libraryPath navigationLocked offlineStoragePath offlineStorageQuota ownsPages pages pagesWindowName paperSize plainText scrollPosition settings title url windowName zoomFactor
-
 ### 安裝
 
     npm install node-amulet
