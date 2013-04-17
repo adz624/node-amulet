@@ -8,6 +8,7 @@ var t, address;
 if (process.argv.length === 2) {
   console.log('Usage: loadspeed.js <some URL>');
   ph.exit();
+  process.exit();
 } else {
   t = Date.now();
   address = process.argv[2];

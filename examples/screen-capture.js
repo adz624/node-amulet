@@ -8,6 +8,7 @@ var address;
 if (process.argv.length === 2) {
   console.log('Usage: loadspeed.js <some URL>');
   ph.exit();
+  process.exit();
 } else {
   address = process.argv[2];
   page.open(address, function (err, status) {
@@ -17,7 +18,7 @@ if (process.argv.length === 2) {
       page.evaluate(function () {
         return document.title;
       }, function (err, data) {
-        page.render(__dirname + '/' + data + '.png', function (err) {
+        page.render(data + '.png', function (err) {
           ph.exit();
           process.exit();
         });

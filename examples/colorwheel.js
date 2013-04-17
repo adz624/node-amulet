@@ -54,7 +54,7 @@ page.viewportSize({width: 400, height: 400}, function (err) {
       document.body.style.backgroundColor = 'white';
       document.body.style.margin = '0px';
     }, function (err) {
-      page.render(__dirname + 'colorwheel.png');
+      page.render('colorwheel.png');
       ph.exit();
       process.exit();
     });
