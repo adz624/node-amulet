@@ -2,7 +2,7 @@
 
 var timers = require('timers');
 var Phantom = require('../lib');
-var ph = new Phantom('3001');
+var ph = new Phantom();
 var page = new Phantom.WebPage(ph);
 var address, output, size;
 

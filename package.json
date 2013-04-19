@@ -1,6 +1,6 @@
 {
   "name": "node-amulet",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "phantomjs wrapper for nodejs",
   "main": "./lib/index.js",
   "dependencies": {
@@ -21,8 +21,5 @@
     "phantom"
   ],
   "author": "Po-Ying Chen <poying.me@gmail.com>",
-  "license": {
-    "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  }
+  "license": "MIT"
 }
